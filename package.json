@@ -1,0 +1,16 @@
+{
+  "name": "expresso",
+  "version": "1.0.0",
+  "description": "Web app built with express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node index.js"
+  },
+  "author": "castelan",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-favicon": "^2.5.0"
+  }
+}
