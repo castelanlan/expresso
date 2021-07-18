@@ -62,7 +62,7 @@ h1:hover {
         font-size: 70%;
     }
     
-    #margin_box {
+    .margin_box {
         width: 60%;
     }
 }
@@ -73,7 +73,7 @@ h1:hover {
         font-size: 140%;
     }
     
-    #margin_box {
+    .margin_box {
         width: 40%;
     }
 }
