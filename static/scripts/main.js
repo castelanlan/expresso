@@ -3,7 +3,7 @@ var h1 = document.getElementById('hd_1');
 h1.addEventListener('mouseover', _mouseOver);
 h1.addEventListener('mouseout', _mouseOut);
 
-// funções 
+// funções nativas
 function _mouseOver() {
     h1.innerHTML = "Teste";
 }
@@ -12,12 +12,12 @@ function _mouseOut() {
     h1.innerHTML = "Bem vindo ao troca pepe!"
 }
 
-function sleep() { }
-
+// ajudantes, talvez não deveriam estar client side... 
 function aleatorio_limite(limite) {
     return Math.floor(Math.random() * (limite + 1)); // 0..limite
 }
 
+// chamadas diretamente
 function recarregar_pagina() {
     window.location.href = window.location.href; // supostamente recarrega o cache junto com a página
     console.log("Página recarregada");

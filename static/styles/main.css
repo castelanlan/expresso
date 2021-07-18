@@ -1,5 +1,6 @@
 :root {
     --cinzao: rgb(70, 70, 70);
+    --cinzasso: rgb(56, 56, 56);
     --verdepepe: #608c3c;
 }
 
@@ -40,6 +41,19 @@ h1:hover {
 /* botões */
 .button {
     margin: auto;
+    background-color: grey;
+    color: white;
+    padding: 5px;
+    font-size: 90%;
+    font-family: Arial;
+    border: none;
+    border-style: solid;
+    border-color: var(--cinzasso);
+    transition: .3s;
+}
+
+.button:active {
+    background: var(--cinzao);
 }
 
 /* div dos botões */
@@ -75,5 +89,18 @@ h1:hover {
     
     .margin_box {
         width: 40%;
+    }
+}
+
+/* resolução estranha */
+@media screen and (min-width: 769px) and (max-width: 1080px) {
+    .margin_box {
+        width: 50%
+    }
+}
+
+@media screen and (min-width: 1080px) and (max-width: 1446px) {
+    .margin_box {
+        width: 50%;
     }
 }
