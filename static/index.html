@@ -3,14 +3,16 @@
 <head>
     <title>Troca pepe</title>
     <link href="/styles/main.css" rel="stylesheet">
-    <script src="/scripts/main.js"></script>
+    <script src="/scripts/main.js" defer="defer"></script>
 </head>
 
 <body>
-    <h1>Bem vindo ao site</h1>
-    <img src="/assets/pepes/pepe_0.png" alt="el tremendo pepe😎" class="pepe" id="img_pepe" width="100" height="100">
-    <button type="submit" onClick="recarregar_pagina()" class="button">Recarregar página</button>
-    <button onClick="pepe_aleatorio()" class="button">Trocar pepe</button>
+    <h1 id="hd_1">Bem vindo ao troca pepe!</h1>
+    <img src="/assets/pepes/pepe_0.png" alt="el tremendo pepe😎" class="pepe" id="img_pepe" width="200" height="200">
+    <div id="button_box">
+        <button type="submit" onClick="recarregar_pagina()" class="button">Recarregar página</button>
+        <button onClick="pepe_aleatorio()" class="button">Trocar pepe</button>
+    </div>
 </body>
 
 </html>

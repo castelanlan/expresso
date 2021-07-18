@@ -1,14 +1,21 @@
+:root {
+    --cinzao: rgb(70, 70, 70);
+    --verdepepe: #608c3c;
+}
+
 html {
     background-color: gray;
-    color: white;
     background: #787672;
+    color: white;
+    font-family: Arial; /* (Arial > *) */
 }
 
-head {
-    font-family: Arial;
-}
-
+/* "Bem vindo ao troca pepe" || "Teste" */
 h1 {
+    border-left: 10px solid var(--verdepepe);
+    border-radius: 10px;
+    padding: 10px;
+    background: var(--cinzao);
     transition: color 2s;
 }
 
@@ -16,12 +23,26 @@ h1:hover {
     color: transparent;
 }
 
+/* pepes */
 .pepe {
     margin: auto;
     display: flex;
 }
 
+#img_pepe {
+    opacity: 1;
+    transition: 1s;
+}
+
+/* botões */
 .button {
     margin: auto;
+    margin-top: 1%;
     display: flex;
+}
+
+/* div dos botôes */
+
+#button_box {
+    background-color: var(--cinzao);
 }
