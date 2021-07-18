@@ -1,15 +1,17 @@
 html {
     background-color: gray;
-    color: gray;
-    background: gray;
-}
-
-body {
-    background-color: gray;
-    color: gray;
-    background: gray;
+    color: white;
+    background: #787672;
 }
 
 head {
     font-family: Arial;
+}
+
+.header_1 {
+    transition: color 2s;
+}
+
+.header_1:hover {
+    color: transparent;
 }
