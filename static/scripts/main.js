@@ -3,6 +3,7 @@ var h1 = document.getElementById('hd_1');
 h1.addEventListener('mouseover', _mouseOver);
 h1.addEventListener('mouseout', _mouseOut);
 
+// funções 
 function _mouseOver() {
     h1.innerHTML = "Teste";
 }
@@ -10,6 +11,8 @@ function _mouseOver() {
 function _mouseOut() {
     h1.innerHTML = "Bem vindo ao troca pepe!"
 }
+
+function sleep() { }
 
 function aleatorio_limite(limite) {
     return Math.floor(Math.random() * (limite + 1)); // 0..limite
@@ -21,6 +24,7 @@ function recarregar_pagina() {
 }
 
 function pepe_aleatorio() {
+
     var pepe = `assets/pepes/pepe_${aleatorio_limite(8)}.png`; // FIXME: melhorar isso
     var img_pepe = document.getElementById('img_pepe');
     console.log(pepe);

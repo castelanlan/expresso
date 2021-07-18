@@ -38,11 +38,17 @@ h1:hover {
 .button {
     margin: auto;
     margin-top: 1%;
-    display: flex;
+    display: inline-block;
 }
 
-/* div dos botôes */
-
+/* div dos botões */
 #button_box {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: var(--cinzao);
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
 }
