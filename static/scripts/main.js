@@ -8,8 +8,7 @@ function recarregar_pagina() {
 }
 
 function pepe_aleatorio() {
-    var pepe = `assets/pepes/pepe_${aleatorio_limite(5)} `;
+    var pepe = `assets/pepes/pepe_${aleatorio_limite(5)}.png`; // FIXME: melhorar isso
     console.log(pepe)
-    document.getElementsByClassName('pepe').src = pepe
-    return pepe
+    document.getElementById('img_pepe').src = pepe
 }

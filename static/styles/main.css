@@ -8,10 +8,16 @@ head {
     font-family: Arial;
 }
 
-.header_1 {
+h1 {
     transition: color 2s;
 }
 
-.header_1:hover {
+h1:hover {
     color: transparent;
 }
+
+.pepe {
+    margin: auto;
+    display: flex;
+}
+
