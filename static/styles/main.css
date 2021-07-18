@@ -41,7 +41,7 @@ h1:hover {
 
 /* div dos botões */
 #button_box {
-    width: 30%;
+    width: 20%;
     margin: auto;
     display: flex;
     padding: 10px;
@@ -51,4 +51,26 @@ h1:hover {
     margin-top: 10px;
     border-radius: 10px;
     border-left: 10px solid var(--verdepepe);
+}
+
+/* celulares ( RWD 8) )*/
+@media screen and (max-width: 480px) {
+    html {
+        font-size: 70%;
+    }
+    
+    #button_box {
+        width: 60%;
+    }
+}
+
+/* tablets */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    html {
+        font-size: 140%;
+    }
+    
+    #button_box {
+        width: 40%;
+    }
 }
