@@ -37,18 +37,18 @@ h1:hover {
 /* botões */
 .button {
     margin: auto;
-    margin-top: 1%;
-    display: inline-block;
 }
 
 /* div dos botões */
 #button_box {
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--cinzao);
-    padding: 10px;
+    width: 30%;
     margin: auto;
+    display: flex;
+    padding: 10px;
+    background-color: var(--cinzao);
+    align-items: center;
+    justify-content: center;
     margin-top: 10px;
+    border-radius: 10px;
+    border-left: 10px solid var(--verdepepe);
 }
