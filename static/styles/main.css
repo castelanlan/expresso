@@ -21,3 +21,7 @@ h1:hover {
     display: flex;
 }
 
+.button {
+    margin: auto;
+    display: flex;
+}
